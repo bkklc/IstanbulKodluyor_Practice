@@ -19,12 +19,16 @@ byte number4 = 255;
 // boolean = true or false
 bool condition = false;
 
+// char 
+char character = 'A';
+
 
 Console.WriteLine("Number 1 is {0}", number1);
 Console.WriteLine("Number 2 is {0}", number2);
 Console.WriteLine("Number 3 is {0}", number3);
 Console.WriteLine("Number 4 is {0}", number4);
 Console.WriteLine(condition);
+Console.WriteLine("Character is : {0}",(int)character);
 
 
 

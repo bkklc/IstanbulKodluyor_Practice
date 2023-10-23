@@ -4,6 +4,9 @@
 // Value Types
 Console.WriteLine("Types & Variables");
 
+//int 
 
+int number1 = 1547296;
 
+Console.WriteLine("Number 1 is {0}", number1);
 

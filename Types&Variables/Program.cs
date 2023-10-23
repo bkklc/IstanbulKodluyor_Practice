@@ -28,6 +28,9 @@ bool condition = false;
 // char 
 char character = 'A';
 
+// var keyword
+var number7 = 10;
+number7 = 'A';
 
 
 Console.WriteLine("Number 1 is {0}", number1);
@@ -36,6 +39,7 @@ Console.WriteLine("Number 3 is {0}", number3);
 Console.WriteLine("Number 4 is {0}", number4);
 Console.WriteLine("Number 5 is {0}", number5);
 Console.WriteLine("Number 6 is {0}", number6);
+Console.WriteLine("Number 7 is {0}", number7);
 Console.WriteLine(condition);
 Console.WriteLine("Character is : {0}",(int)character);
 Console.WriteLine((int)Days.Friday);

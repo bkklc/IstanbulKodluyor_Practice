@@ -19,6 +19,9 @@ byte number4 = 255;
 // double
 double number5 = 10.4;
 
+// decimal
+decimal number6 = 101.48m;
+
 // boolean = true or false
 bool condition = false;
 
@@ -32,6 +35,7 @@ Console.WriteLine("Number 2 is {0}", number2);
 Console.WriteLine("Number 3 is {0}", number3);
 Console.WriteLine("Number 4 is {0}", number4);
 Console.WriteLine("Number 5 is {0}", number5);
+Console.WriteLine("Number 6 is {0}", number6);
 Console.WriteLine(condition);
 Console.WriteLine("Character is : {0}",(int)character);
 

@@ -23,6 +23,8 @@
             Console.WriteLine(Multiply(2,5));
             Console.WriteLine(Multiply(2,5,8));
 
+            Console.WriteLine("Paramslı kullanım: " + Add5( 2,6,3,5,6,5,8,9));
+
         }
 
         // Method Giriş
@@ -74,6 +76,13 @@
         static int Multiply(int number1, int number2, int number3)
         {
             return number1 * number2 * number3;
+        }
+
+        // Params Keyword İle Çalışmak
+        static int Add5(params int[] numbers)
+        {
+
+            return numbers.Sum();
         }
     }
 }

@@ -25,7 +25,7 @@ else
 }
 */
 
-
+/*
 // switch-case
 switch (number)
 {
@@ -38,4 +38,21 @@ switch (number)
     default:
         Console.WriteLine("Number is not 10 or 20");
         break;  
+}
+*/
+
+
+if (number >= 0 && number <= 100)
+{
+    Console.WriteLine("Number is between 0 - 100");
+}
+
+else if (number > 100 && number <= 200)
+{ 
+    Console.WriteLine("Number is between 100 - 200");
+}
+
+else if (number > 100 || number < 0)
+{
+    Console.WriteLine("Number is less than 0 or greater than 200");
 }

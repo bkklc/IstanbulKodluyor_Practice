@@ -8,6 +8,7 @@ var number = 21;
 Console.WriteLine(number == 10 ? "Number is 10" : "Number is not 10");
 */
 
+// If - Else
 /*
 if (number == 10)
 {
@@ -41,7 +42,8 @@ switch (number)
 }
 */
 
-
+// Demo: Çoklu Şartlarla Çalışmak
+/*
 if (number >= 0 && number <= 100)
 {
     Console.WriteLine("Number is between 0 - 100");
@@ -56,3 +58,15 @@ else if (number > 100 || number < 0)
 {
     Console.WriteLine("Number is less than 0 or greater than 200");
 }
+*/
+
+/*
+// İç İçe If Bloklarıyla Çalışmak
+if (number < 100)
+{
+    if (number >= 90 && number <= 95)
+    {
+        Console.WriteLine("Number is between 90 - 95");
+    }
+}
+*/

@@ -10,15 +10,19 @@
             Add();
             var result = Add2(12,58);
             */
-
+            /*
             int number1 ;
             int number2 = 100;
             var result2 = Add4(out number1, number2);
 
             Console.WriteLine("Result 2: " + result2);
             Console.WriteLine(number1);
-
+            */
             //Console.WriteLine("Default Parametreli Metot: " + Add3());
+
+            Console.WriteLine(Multiply(2,5));
+            Console.WriteLine(Multiply(2,5,8));
+
         }
 
         // Method Giriş
@@ -58,6 +62,18 @@
         {
             number1 = 30;
             return number1 + number2;
+        }
+
+        // Method Overloading
+        static int Multiply(int number1, int number2)
+        {
+            return number1 * number2;
+        }
+
+        // method overload
+        static int Multiply(int number1, int number2, int number3)
+        {
+            return number1 * number2 * number3;
         }
     }
 }

@@ -5,7 +5,21 @@
         static void Main(string[] args)
         {
             // ForLoop();
+            // WhileLoop();
 
+
+            // Do While
+            int number = 10;
+            do
+            {
+                Console.WriteLine(number);
+                number--;
+            } while (number >= 11);
+
+        }
+
+        private static void WhileLoop()
+        {
             // While Döngüsü
             int number = 100;
             while (number >= 0)
@@ -15,9 +29,6 @@
             }
 
             Console.WriteLine("Number is " + number);
-
-
-
         }
 
         private static void ForLoop()

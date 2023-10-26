@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops", "Loops\Loops.csproj", "{245D1F70-FD66-4881-8F43-473D70AE9B79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "Strings\Strings.csproj", "{F9139617-B6F7-4299-B602-2C774D80DD9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strings", "Strings\Strings.csproj", "{F9139617-B6F7-4299-B602-2C774D80DD9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{88A53B8E-9772-46A1-AA3A-2E0DE1416115}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes", "Classes\Classes.csproj", "{88A53B8E-9772-46A1-AA3A-2E0DE1416115}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecapDemo1", "RecapDemo1\RecapDemo1.csproj", "{384911EC-5D22-49D5-85B7-B10D928B63B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{88A53B8E-9772-46A1-AA3A-2E0DE1416115}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88A53B8E-9772-46A1-AA3A-2E0DE1416115}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88A53B8E-9772-46A1-AA3A-2E0DE1416115}.Release|Any CPU.Build.0 = Release|Any CPU
+		{384911EC-5D22-49D5-85B7-B10D928B63B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{384911EC-5D22-49D5-85B7-B10D928B63B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{384911EC-5D22-49D5-85B7-B10D928B63B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{384911EC-5D22-49D5-85B7-B10D928B63B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

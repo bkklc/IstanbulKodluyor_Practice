@@ -4,6 +4,20 @@
     {
         static void Main(string[] args)
         {
+            //InterfacesIntro();
+
+            CustomerManager customerManager = new CustomerManager();
+
+            customerManager.Add(new SqlServerCustomerDal());
+            customerManager.Add(new OracleCustomerDal());
+
+
+
+
+        }
+
+        private static void InterfacesIntro()
+        {
             PersonManager manager = new PersonManager();
             Customer customer = new Customer
             {
@@ -12,7 +26,7 @@
                 LastName = "Kılıç",
                 Adress = "Kocaeli"
             };
-           
+
             Student student = new Student
             {
                 Id = 1,
@@ -23,17 +37,15 @@
 
             manager.Add(customer);
             manager.Add(student);
-            
-            
-
-
 
             // manager.Add(new Customer {Id = 1, FirstName = "Berk", LastName = "Kılıç", Adress = "Kocaeli"}); // yukarıdaki ile aynı sadece yazım şekli farklı  
         }
     }
 
-    //soyut nesne
-    // aynı özelliklerin tekrarlamayı önlemek için nesnelerde çağrılarak kullanılır
+    //soyut nesne 
+    //soyut nesneler newlenemez tekrardan üretilemez 
+    //aynı özelliklerin tekrarlamayı önlemek için nesnelerde çağrılarak kullanılır
+
     interface IPerson 
     {
         int Id { get; set; }
